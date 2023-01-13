@@ -42,9 +42,9 @@ export default function Home() {
                         height={609}
                     />
                     <div className={styles.links}>
-                        <a href='https://twitter.com/sravan_pant' target="_blank"><FontAwesomeIcon className={styles.icons + ' ' + styles.faTwitter} icon={faTwitter} size='4x' /></a>
-                        <a href='https://github.com/sravanpant' target="_blank"><FontAwesomeIcon className={styles.icons + ' ' + styles.faGithub} icon={faGithub} size='4x' /></a>
-                        <a href='https://www.linkedin.com/in/sravan-pant-496189228/' target="_blank"><FontAwesomeIcon className={styles.icons + ' ' + styles.faLinkedin} icon={faLinkedin} size='4x' /></a>
+                        <a href='https://twitter.com/sravan_pant' target="_blank" rel="noreferrer"><FontAwesomeIcon className={styles.icons + ' ' + styles.faTwitter} icon={faTwitter} size='4x' /></a>
+                        <a href='https://github.com/sravanpant' target="_blank" rel="noreferrer"><FontAwesomeIcon className={styles.icons + ' ' + styles.faGithub} icon={faGithub} size='4x' /></a>
+                        <a href='https://www.linkedin.com/in/sravan-pant-496189228/' target="_blank" rel="noreferrer"><FontAwesomeIcon className={styles.icons + ' ' + styles.faLinkedin} icon={faLinkedin} size='4x' /></a>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ export default function Home() {
                         <p>About Me</p>
                     </div>
                     <div className={styles.subject}>
-                        <p>I'm a learner, and <a href='https://learnweb3.io/' target="_blank" >LearnWeb3</a> is where I'm getting my web3 education right now.<br /> I have also gained understanding in full stack web programming by studying <a href='https://twitter.com/yu_angela' target="_blank">Dr. Angela Yu's</a> <a href='https://www.udemy.com/share/101qYw3@Jr5Owa1nA4rQUBzNyaRKBNI7NBXfWnd2FXDnt17YcdbPqYHPhMuHk-bNjmWyx9c8zQ==/' target="_blank">course</a> on <a href='https://www.udemy.com/' target="_blank">Udemy</a>.<br /> My favourite pastime is reading.<br /> My personal favourites among the well-known fiction writers are Agatha Christie and Enid Blyton.</p>
+                        <p>I am a learner, and <a href='https://learnweb3.io/' target="_blank" rel="noreferrer" >LearnWeb3</a> is where I am getting my web3 education right now.<br /> I have also gained understanding in full stack web programming by studying <a href='https://twitter.com/yu_angela' target="_blank" rel="noreferrer">Dr. Angela Yu</a> <a href='https://www.udemy.com/share/101qYw3@Jr5Owa1nA4rQUBzNyaRKBNI7NBXfWnd2FXDnt17YcdbPqYHPhMuHk-bNjmWyx9c8zQ==/' target="_blank" rel="noreferrer">course</a> on <a href='https://www.udemy.com/' target="_blank" rel="noreferrer">Udemy</a>.<br /> My favourite pastime is reading.<br /> My personal favourites among the well-known fiction writers are Agatha Christie and Enid Blyton.</p>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@ export default function Home() {
                     width={1600}
                     height={609}
                 />
-                <a href="https://github.com/sravanpant?tab=repositories" target="_blank">
+                <a href="https://github.com/sravanpant?tab=repositories" target="_blank" rel="noreferrer">
                     <div className={styles.heading}>
                         <div className={styles.title}>
                             <p>My Projects</p>
@@ -112,7 +112,7 @@ export default function Home() {
                     </div>
                 </a>
                 <div className={styles.card1}>
-                    <a href="https://github.com/sravanpant/Keeper-App-react-project" target="_blank">
+                    <a href="https://github.com/sravanpant/Keeper-App-react-project" target="_blank" rel="noreferrer">
                         <Card
                             image="/keeper-app.png"
                             alt="keeper-app"
@@ -124,7 +124,7 @@ export default function Home() {
                     </a>
                 </div>
                 <div className={styles.card2}>
-                    <a href="https://github.com/sravanpant/dbank-project" target="_blank">
+                    <a href="https://github.com/sravanpant/dbank-project" target="_blank" rel="noreferrer">
                         <Card
                             image="/dbank-app.png"
                             alt="dbank-app"
@@ -136,7 +136,7 @@ export default function Home() {
                     </a>
                 </div>
                 <div className={styles.card3}>
-                    <a href="https://github.com/sravanpant/My-Crypto-token" target="_blank">
+                    <a href="https://github.com/sravanpant/My-Crypto-token" target="_blank" rel="noreferrer">
                         <Card
                             image="/cryptoToken.png"
                             alt="crypto token exchange"
@@ -148,7 +148,7 @@ export default function Home() {
                     </a>
                 </div>
                 <div className={styles.card4}>
-                    <a href="https://github.com/sravanpant/Whitelist-Dapp" target="_blank">
+                    <a href="https://github.com/sravanpant/Whitelist-Dapp" target="_blank" rel="noreferrer">
                         <Card
                             image="/whitelist-dapp.png"
                             alt="whitelist dapp"
@@ -160,7 +160,7 @@ export default function Home() {
                     </a>
                 </div>
                 <div className={styles.card5}>
-                    <a href="https://github.com/sravanpant/NFT-Collection" target="_blank">
+                    <a href="https://github.com/sravanpant/NFT-Collection" target="_blank" rel="noreferrer">
                         <Card
                             image="/nft-collection.png"
                             alt="NFT collection"
@@ -172,7 +172,7 @@ export default function Home() {
                     </a>
                 </div>
                 <div className={styles.card6}>
-                    <a href="https://github.com/sravanpant/Initial-Coin-Offering" target="_blank">
+                    <a href="https://github.com/sravanpant/Initial-Coin-Offering" target="_blank" rel="noreferrer">
                         <Card
                             image="/ico.png"
                             alt="Initial Coin Offering"
@@ -184,7 +184,7 @@ export default function Home() {
                     </a>
                 </div>
                 <div className={styles.card7}>
-                    <a href="https://github.com/sravanpant/DEX" target="_blank">
+                    <a href="https://github.com/sravanpant/DEX" target="_blank" rel="noreferrer">
                         <Card
                             image="/dex.png"
                             alt="Decentralised Exchange"
@@ -206,9 +206,9 @@ export default function Home() {
                         height={609}
                     />
                     <div className={styles.links1}>
-                        <a href='https://twitter.com/sravan_pant' target="_blank"><FontAwesomeIcon className={styles.icons + ' ' + styles.faTwitter} icon={faTwitter} size='4x' /></a>
-                        <a href='https://github.com/sravanpant' target="_blank"><FontAwesomeIcon className={styles.icons + ' ' + styles.faGithub} icon={faGithub} size='4x' /></a>
-                        <a href='https://www.linkedin.com/in/sravan-pant-496189228/' target="_blank"><FontAwesomeIcon className={styles.icons + ' ' + styles.faLinkedin} icon={faLinkedin} size='4x' /></a>
+                        <a href='https://twitter.com/sravan_pant' target="_blank" rel="noreferrer"><FontAwesomeIcon className={styles.icons + ' ' + styles.faTwitter} icon={faTwitter} size='4x' /></a>
+                        <a href='https://github.com/sravanpant' target="_blank" rel="noreferrer"><FontAwesomeIcon className={styles.icons + ' ' + styles.faGithub} icon={faGithub} size='4x' /></a>
+                        <a href='https://www.linkedin.com/in/sravan-pant-496189228/' target="_blank" rel="noreferrer"><FontAwesomeIcon className={styles.icons + ' ' + styles.faLinkedin} icon={faLinkedin} size='4x' /></a>
                     </div>
                 </div>
             </div>
