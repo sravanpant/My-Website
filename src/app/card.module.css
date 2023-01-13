@@ -1,0 +1,15 @@
+.card {
+    background-color: #FEB139;
+    max-width: 650px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.card:hover {
+    color: #293462;
+    background-color: #FC8621;
+}
+
+.image {
+    border-radius: 15px;
+}
